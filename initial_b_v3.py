@@ -14,10 +14,6 @@ def initial_b_fun_v3(res_mat, sub_id_1, mask, landmarks, idx):
     mu = np.zeros(shape=(res_mat.shape[0], nclasses)) # mu.shape
     n_sub = len(np.unique(sub_id_1))
 
-
-    n_sub = len(np.unique(sub_id_1))
-
-    from sklearn.cluster import KMeans
     for j in range(n_sub):
         obs_list = np.where(obs_id_1 == np.unique(sub_id_1)[j])
 
@@ -33,6 +29,7 @@ def initial_b_fun_v3(res_mat, sub_id_1, mask, landmarks, idx):
             c_sort = np.sort(centers[:, 0])
             clusters_id = np.where(centers[:, 0] <= c_sort[2])
             b_pxl = np.asarray([-1, -1])
+            
             for c_id in clusters_id:
                 b_pxl_l = np.where(np.isin(kmeans.labels_, c_id))[0]
                 b_pxl = np.hstack((b_pxl, b_pxl_l))
