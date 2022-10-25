@@ -12,18 +12,13 @@
 #  - `var_list`: list of predictor names.
 #  - `fe_idx`: index list of predictors in fixed effect.
 #  - `re_idx`: index list of predcitors in random effects.
-#
 # ----------------------------------------------------------------------------
-#
 # And returns:
-#
 # ----------------------------------------------------------------------------
 #
 #  - `betas_hat`: The parameter vector (beta,sigma2,vech(D_1),...,vech(D_r))
 #  - `pvalues`: Estimates of the random effects vector, b.
-
 # Author: Chao Huang (chaohuang.stat@gmail.com)
-# Last update: 2022-09-10
 """
 
 
