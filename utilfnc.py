@@ -1,3 +1,5 @@
+import numpy as np
+
 def ind2sub_v2(array_shape, ind):
     ind[ind < 0] = -1
     ind[ind >= array_shape[0]*array_shape[1]] = -1
