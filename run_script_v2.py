@@ -13,12 +13,12 @@ import numpy as np
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 import glob
-from utilfncs import sub2ind, ind2sub
+from utilfncs import sub2ind_v2, ind2sub_v2, delta_fun
 
 # from lmm import lmm_fun
 from lmm_v3 import lmm_fun_v3
 # from initial_b import initial_b_fun
-from initial_b_v2 import initial_b_fun_v2
+from initial_b_v3 import initial_b_fun_v3
 from CMRF_MAP import map_fun
 
 """
