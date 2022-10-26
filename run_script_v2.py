@@ -114,17 +114,7 @@ def run_script(input_dir, output_dir):
     stop_2 = time.time()
     print("The cost time in Step 2 is %(t1) d" % {"t1": stop_2 - start_2})
     
-    ###################################################################
-    ###################################################################
-    
-    # Still checking - map_fun
-    
-    # template -> mask
-    
-    
-    ###################################################################
-    ###################################################################
-    
+
     
     """+++++++++++++++++++++++++++++++++++"""
     print("""Step 2. Diseased region detection based on HMRF and EM""")
@@ -141,6 +131,18 @@ def run_script(input_dir, output_dir):
 
     """+++++++++++++++++++++++++++++++++++"""
     print("""Step 3. Save the detected regions into image""")
+    template = mask
+    for ii in range(b.shape[0]):
+        vec_template = np.reshape(template, (template.shape[0] * template.shape[1], 1))
+        ind_list = np.where(vec_template == 1)[0]
+        ddd = np.zeros(shape=(template.shape[0] * template.shape[1] , 1))
+        bbb = pd.DataFrame({'value': ccc}, index=ind_list)
+        ddd[ind_list] = np.reshape(np.array(bbb.value.astype(int)), (num_pxl, 1))
+        eee = np.reshape(ddd, (template.shape[0],  template.shape[1]), order='a').astype(int)
+        output_file_name = output_dir + 'b_%s.img' % ii
+        np.savetxt(output_file_name, eee, delimiter=',')
+        
+    """
     for ii in range(b.shape[0]):
         b_i = np.reshape(b[ii, :], template.shape)
         ana_img = nib.AnalyzeImage(b_i, np.eye(4))
@@ -156,3 +158,4 @@ def run_script(input_dir, output_dir):
         stop_all = time.time()
         delta_time_all = str(stop_all - start_all)
         print("The total elapsed time is " + delta_time_all)
+      """
