@@ -67,7 +67,8 @@ def map_fun(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses
         else:
             vec_template = np.reshape(template, (template.shape[0] * template.shape[1]
                                                  * template.shape[2], 1))
-        b_0[i, vec_template == 1] = b0_i
+        # b_0[i, vec_template == 1] = b0_i
+        b_0[ii, :] = b0_i
         u_i = np.exp(-np.min(u, axis=1))
         u_i0 = u_i[b0_i == 0]
         r_i0 = r_i[b0_i == 0]
