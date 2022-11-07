@@ -13,10 +13,15 @@ lmm_fun(y_design_0, x_design_0, var_list, fe_idx, re_idx)
  + fe_idx = index list of variables in fixed effect.
  + re_idx = index list of variables in random effect.
 
-```swift
+```python
 initial_b_fun(res_mat, sub_id_1, mask, landmarks, idx)
 ```
+ + res_mat = 
+ + sub_id_1 = 
+ + mask = 
+ + landmarks = 
+ + idx = 
 
-```swift
+```python
 map_fun(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses, map_iter)
 ```
