@@ -5,10 +5,13 @@ Huang, Chao, et al. "DADP: dynamic abnormality detection and progression for lon
 ### Test
 
 ```ruby
-public struct CGSize {
-  public var width: CGFloat
-  public var heigth: CGFloat
-  ...
-}
+lmm_fun_v3(y_design_0, x_design_0, var_list, fe_idx, re_idx)
 ```
 
+```ruby
+initial_b_fun_v2(res_mat, sub_id_1, mask, landmarks, idx)
+```
+
+```ruby
+map_fun(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses, map_iter)
+```
