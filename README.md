@@ -4,7 +4,7 @@ Huang, Chao, et al. "DADP: dynamic abnormality detection and progression for lon
 ## Test
 ### Test
 
-```ruby
+```swift
 lmm_fun_v3(y_design_0, x_design_0, var_list, fe_idx, re_idx)
 ```
 
