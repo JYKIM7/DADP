@@ -7,11 +7,11 @@ Huang, Chao, et al. "DADP: dynamic abnormality detection and progression for lon
 ```python
 lmm_fun(y_design_0, x_design_0, var_list, fe_idx, re_idx)
 ```
- + y_design_0
- + x_design_0
- + var_list
- + fe_idx
- + re_idx
+ + y_design_0 = Thickness map array for normal subjects.
+ + x_design_0 = Information array for normal subjects.
+ + var_list = list of variables.
+ + fe_idx = index list of variables in fixed effect.
+ + re_idx = index list of variables in random effect.
 
 ```swift
 initial_b_fun(res_mat, sub_id_1, mask, landmarks, idx)
