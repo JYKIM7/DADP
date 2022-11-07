@@ -5,7 +5,7 @@ Huang, Chao, et al. "DADP: dynamic abnormality detection and progression for lon
 ### Test
 
 ```swift
-**lmm_fun**(y_design_0, x_design_0, var_list, fe_idx, re_idx)
+<b>lmm_fun</b>(y_design_0, x_design_0, var_list, fe_idx, re_idx)
 ```
 **y_design_0**
 **x_design_0**
@@ -13,9 +13,9 @@ Huang, Chao, et al. "DADP: dynamic abnormality detection and progression for lon
 **fe_idx**
 **re_idx**
 ```swift
-**initial_b_fun**(res_mat, sub_id_1, mask, landmarks, idx)
+<b>initial_b_fun</b>(res_mat, sub_id_1, mask, landmarks, idx)
 ```
 
 ```swift
-**map_fun**(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses, map_iter)
+<b>map_fun</b>(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses, map_iter)
 ```
