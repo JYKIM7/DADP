@@ -3,11 +3,9 @@ Run main script: Dynamic Abnormality Detection and Progression (DADP) pipeline
 Usage: python ./DADP_run_script.py ./data/ ./result/
 
 Author: Chao Huang (chaohuang.stat@gmail.com)
-Last update: 2022-06-18
 """
 
 import os
-
 import time
 import numpy as np
 import scipy.stats as stats
