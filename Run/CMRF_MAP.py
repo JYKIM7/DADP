@@ -77,5 +77,5 @@ def map_fun(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses
         r_i1 = r_i[b0_i == 1]
         mu[ii, 1] = np.sum(u_i1 * r_i1) / np.sum(u_i1)
 
-    """return b_0"""
+   
     return b_0
