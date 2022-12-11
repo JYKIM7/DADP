@@ -8,9 +8,8 @@ import glob
 import os
 os.chdir('C:/Users/JYKIM/Desktop/Student_Kim_220915/DADP/')
 
-
-input_dir = 'C:/Users/JYKIM/Desktop/Student_Kim_220915/DADP/input/'
-# input_dir = 'C:/Users/jyace/Downloads/DADP_220909/DADP/input/'
+input_dir = '~~~~'
+# input_dir = '~~~~'
 # output_dir
 
 print(""" Step 0. load dataset """)
