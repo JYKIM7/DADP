@@ -3,4 +3,6 @@ Huang, Chao, et al. "DADP: dynamic abnormality detection and progression for lon
 
 
 
-## Code algorithm
+## Case 1.
+
+## Case 2.
