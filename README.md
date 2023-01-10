@@ -4,5 +4,8 @@ Huang, Chao, et al. "DADP: dynamic abnormality detection and progression for lon
 
 
 ## Case 1.
+It is a program code performed by using the method in the original paper.
+
 
 ## Case 2.
+It is a program code performed by setting the format of the input data and approach method differently.
