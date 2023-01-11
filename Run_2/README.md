@@ -13,6 +13,7 @@
 ![original_img](https://user-images.githubusercontent.com/71793706/211830305-8afcad4a-153a-4534-b1f5-0bfdc5abd0f5.png) *Original image*
 ![mask_region_img](https://user-images.githubusercontent.com/71793706/211830264-6c85ca5a-e282-4699-b13a-11db173a0255.png)  *Mask region image*
 
-
+We conduct an analysis using Mask region's data extracted from the original data. Before that, these data must be converted into binary data. There are two methods that can be used in this case: the first one is the percentile method, and the second one is the MRF method. The latter method was used in this study.
+    
 3. 
 
