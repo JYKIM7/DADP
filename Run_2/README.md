@@ -15,5 +15,9 @@
 
 We conduct an analysis using Mask region's data extracted from the original data. Before that, these data must be converted into binary data. There are two methods that can be used in this case: the first one is the percentile method, and the second one is the MRF method. The latter method was used in this study.
     
-3. 
+3. The information of our image data is made into a matrix. That is, each column vector has image information of each patient, which is calculated as an average.
 
+
+![roi1](https://user-images.githubusercontent.com/71793706/211837418-2534ef07-2005-4236-87d5-6997d4438284.png)
+![roi2](https://user-images.githubusercontent.com/71793706/211837419-90d71410-6fbe-4743-9d62-267c74eae35c.png)
+![roi3](https://user-images.githubusercontent.com/71793706/211837420-29811067-548c-4673-bc9a-d58275a2113d.png)
