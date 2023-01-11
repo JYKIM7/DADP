@@ -10,5 +10,9 @@
 
     * __mask_to_full__ : It is a function that converts the image data of the mask region into an original image data format 
 
+![original_img](https://user-images.githubusercontent.com/71793706/211830305-8afcad4a-153a-4534-b1f5-0bfdc5abd0f5.png) *Original image*
+![mask_region_img](https://user-images.githubusercontent.com/71793706/211830264-6c85ca5a-e282-4699-b13a-11db173a0255.png)  *Mask region image*
+
+
 3. 
 
