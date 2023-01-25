@@ -29,10 +29,10 @@ def MRF(I, J, eta = 1.5, zeta=1.0):
     return J
 
 # ignore region 
+# aa is data number.
 
-I = dt[122,:,:] 
+I = dt[aa,:,:].astype(int) 
 
-I = dt[122,:,:].astype(int) 
 # np.mean(I)
 # I = full_to_mask(dt[0,:,:], mask1)['value']
 N = np.shape(I)[0]
