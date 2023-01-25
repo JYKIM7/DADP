@@ -4,7 +4,7 @@ import glob
 import pickle
 import pandas as pd
 import os
-input_dir = '~~~ '
+input_dir = '~~~'
 os.chdir(input_dir)
 
 ######################################################
