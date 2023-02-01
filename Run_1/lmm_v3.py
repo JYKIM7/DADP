@@ -74,7 +74,6 @@ def lmm_fun_v3(Y, X, var_list, fe_idx, re_idx):
 
     return(betas_hat, pvalues, s2)
 
-
 """
 def lmm_fun(Y, X, var_list, fe_idx, re_idx):
     n_obs, num_pxl = np.shape(Y)
