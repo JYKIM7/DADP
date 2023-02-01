@@ -2,7 +2,6 @@
 Run main script: Dynamic Abnormality Detection and Progression (DADP) pipeline
 Usage: python ./DADP_run_script.py ./data/ ./result/
 
-
 Author: Chao Huang (chaohuang.stat@gmail.com)
 """
 
