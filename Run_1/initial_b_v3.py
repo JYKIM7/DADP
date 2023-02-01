@@ -41,6 +41,7 @@ def initial_b_fun_v3(res_mat, sub_id_1, mask, landmarks, idx):
     return b_0
 
 
+
 """
 def initial_b_fun(res_mat, sub_id, mask, landmarks, idx):
     
