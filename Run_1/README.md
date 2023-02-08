@@ -29,7 +29,7 @@ initial_b_fun(res_mat, sub_id_1, mask, landmarks, idx)
  + mask           = Template data
  + landmarks, idx = Index infomation about masked region.
 
-![image](https://user-images.githubusercontent.com/71793706/211867980-0cf9d712-cfa5-4781-b862-d1e0d3dfee4b.png)
+<img src="https://user-images.githubusercontent.com/71793706/211867980-0cf9d712-cfa5-4781-b862-d1e0d3dfee4b.png" width="300" />
 
 This function calculates b_0 parameters. (Their elements is 2(normal) or 5(abnormal).)
 
@@ -42,4 +42,5 @@ map_fun(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses, ma
 ```
 
 Diseased region detection
-![12123](https://user-images.githubusercontent.com/71793706/217572502-d86e2ae9-ff7f-46e6-ad30-74f5c529c547.png)
+
+<img src="https://user-images.githubusercontent.com/71793706/217572502-d86e2ae9-ff7f-46e6-ad30-74f5c529c547.png" width="500" />
