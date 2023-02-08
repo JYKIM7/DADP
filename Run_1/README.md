@@ -42,3 +42,4 @@ map_fun(b_0, x_design, y_design, dx, template, beta, mu, s2, gamma, nclasses, ma
 ```
 
 Diseased region detection
+![12123](https://user-images.githubusercontent.com/71793706/217572502-d86e2ae9-ff7f-46e6-ad30-74f5c529c547.png)
